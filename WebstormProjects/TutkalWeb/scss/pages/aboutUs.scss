@@ -1,0 +1,29 @@
+.Employees{
+  margin-top: 75px;
+  .container{
+
+  }
+  &-header{
+    //background-color: yellow;
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+
+    h3{
+
+
+      font-family: $header-font;
+      font-size: 2em;
+    }
+    .underlineFull{
+      width: 13em;
+
+    }
+
+  }
+}

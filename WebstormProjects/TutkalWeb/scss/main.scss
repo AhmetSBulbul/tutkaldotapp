@@ -1,0 +1,20 @@
+@import "config/variables";
+@import "config/mixin";
+//
+@import "helpers/normalize";
+@import "helpers/formalize";
+//
+@import "helpers/global";
+//@import "../font-awesome-4.7.0/scss/font-awesome";
+//
+@import "plugins/flickity";
+//@import "plugins/socialbutons";
+//
+@import "global/header";
+//
+@import "pages/info";
+@import "pages/aboutUs";
+@import "pages/contactUs";
+@import "pages/services";
+@import "pages/products";
+@import "pages/product";

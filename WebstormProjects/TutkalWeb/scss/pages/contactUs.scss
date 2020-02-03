@@ -1,0 +1,63 @@
+.Contact
+{
+  margin-top: 150px;
+  .container{
+    flex-direction: column;
+
+  }
+  &-header{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    h2{
+      font-family: $header-font;
+    }
+    .underlineFull{
+      width: 300px;
+      background-color: $main-color;
+    }
+  }
+  .boxes{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    @include mq(){
+      flex-direction: row;
+    }
+  }
+  &-box{
+    margin-bottom: 50px;
+    width: 300px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #F3F4F7;
+    color:$font-color;
+
+    .icon{
+
+      margin-bottom: 35px;
+
+    }
+    h3{
+      font-family: $header-font;
+      margin-bottom: 15px;
+
+    }
+    h4{
+
+    }
+    h5{
+      margin-top: 7px;
+      text-decoration: none;
+
+    }
+  }
+}
