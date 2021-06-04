@@ -643,7 +643,7 @@ https://flickity.metafizzy.co
 
 .Footer {
   margin-top: 50px;
-  background-image: url("../../img/footer.jpg");
+  background-image: url("img/footer.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -690,7 +690,7 @@ https://flickity.metafizzy.co
       height: 80px; } }
 
 .Main {
-  background-image: url("/img/main.png");
+  background-image: url("img/main.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
